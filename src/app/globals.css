@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: space-around;
   background-color: #F3EEEA;
+  font-family: 'Bebas Neue', sans-serif;
 }
 .texts{
   font-family: 'Bebas Neue', sans-serif;
@@ -135,4 +136,21 @@ img{
   display: block;
   outline: 2px #F3EEEA solid;
   outline-offset: -10px;
+}
+.contact-text{
+  font-size: xx-large;
+  text-align: center;
+  width: 450px;
+}
+.contact{
+  width: 540px;
+  align-items: baseline;
+  font-size: 55px;
+  display: flex;
+  border-bottom: solid 2px #131708;
+  margin-bottom: 40px;
+}
+.info{
+  margin: 0 15px;
+  font-size: 20px;
 }
