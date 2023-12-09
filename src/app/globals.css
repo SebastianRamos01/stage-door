@@ -154,3 +154,57 @@ img{
   margin: 0 15px;
   font-size: 20px;
 }
+.credits{
+  display: flex;
+  flex-direction: column;
+}
+.lists{
+  margin: 10px 0;
+  display: flex;
+}
+.team{
+  font-size: 20px;
+  width: 150px;
+  text-decoration: underline;
+}
+.member{
+  font-size: 20px;
+}
+@media (max-width: 320px) {
+  .header{
+    width: 320px;
+    top: 0;
+    left: 0;
+  }
+  .texts{
+    width: 320px;
+  }
+  .img{
+    display: none;
+  }
+  .main{
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .gallery{
+    height: auto;
+    padding: 100px 0;
+  }
+  .gal-1{
+    flex-direction: column;
+  }
+  .box{
+    width: 60%;
+    margin: 5px 0;
+  }
+  .empty{
+    display: none;
+  }
+  .contact-text{
+    width: 320px;
+  }
+  .contact{
+    width: 300px;
+  }
+  
+}

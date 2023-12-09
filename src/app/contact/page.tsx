@@ -12,7 +12,7 @@ export default function page() {
             Phone
           </div>
           <div className='info'>
-            +11 35838175
+            +12 23324556
           </div>
         </li>
         <li className='contact'>
@@ -20,7 +20,7 @@ export default function page() {
             Email
           </div>
           <div className='info'>
-            sebasm.sr@gmail.com
+            lorem.ipsum@email.com
           </div>
         </li>
         <li className='contact'>
@@ -28,7 +28,7 @@ export default function page() {
             Follow
           </div>
           <div className='info'>
-            _sbasramos
+            _loremipsum
           </div>
         </li>
       </ul>
