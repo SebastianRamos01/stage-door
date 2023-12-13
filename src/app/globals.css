@@ -23,6 +23,7 @@
   font-size: xx-large;
 }
 .text{
+  font-size: medium;
   text-align: center;
   letter-spacing: 1px;
 }
@@ -98,7 +99,7 @@ li{
 }
 .ref{
   margin: 5px 0;
-  font-size: 30px;
+  font-size: 25px;
   color: #131708;
 }
 .ref:hover{
@@ -136,6 +137,14 @@ img{
   display: block;
   outline: 2px #F3EEEA solid;
   outline-offset: -10px;
+}
+.shape{
+  width: 540px;
+  height: 500px;
+  background: radial-gradient(circle, transparent 20%, #f3eeea 20%, #f3eeea 80%, transparent 80%, transparent) 0% 0% / 64px 64px, radial-gradient(circle, transparent 20%, #f3eeea 20%, #f3eeea 80%, transparent 80%, transparent) 32px 32px / 64px 64px, linear-gradient(#131708 2px, transparent 2px) 0px -1px / 32px 32px, linear-gradient(90deg, #131708 2px, #f3eeea 2px) -1px 0px / 32px 32px #f3eeea;
+background-size: 64px 64px, 64px 64px, 32px 32px, 32px 32px;
+background-color: #f3eeea;
+  border-radius: 50%;
 }
 .contact-text{
   font-size: xx-large;

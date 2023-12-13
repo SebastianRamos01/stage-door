@@ -4,34 +4,31 @@ export default function page() {
   return (
     <div className='main'>
       <div className='contact-text'>
-        We are happy to talk!
+        <div className='main-text'>
+          We are happy to talk!
+        </div>
+        <div className='text'>
+          email
+        </div>
+        <div className='text'>
+          random@algo.com
+        </div>
+        <div className='text'>
+          number
+        </div>
+        <div className='text'>
+          +12 13245398
+        </div>
+        <div className='text'>
+          adreess
+        </div>
+        <div className='text'>
+          lorem ipsum 6452
+        </div>
       </div>
-      <ul className=''>
-        <li className='contact'>
-          <div>
-            Phone
-          </div>
-          <div className='info'>
-            +12 23324556
-          </div>
-        </li>
-        <li className='contact'>
-          <div>
-            Email
-          </div>
-          <div className='info'>
-            lorem.ipsum@email.com
-          </div>
-        </li>
-        <li className='contact'>
-          <div className=''>
-            Follow
-          </div>
-          <div className='info'>
-            _loremipsum
-          </div>
-        </li>
-      </ul>
+      <div className='shape'>
+        
+      </div>
     </div>
   )
 }
