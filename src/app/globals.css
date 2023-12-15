@@ -98,12 +98,31 @@ li{
   z-index: 1;
 }
 .ref{
+  padding: 4px;
   margin: 5px 0;
   font-size: 25px;
   color: #131708;
+  border-radius: 10px;
 }
 .ref:hover{
-  text-decoration: underline;
+  background-color: #E6E8E6;
+}
+.social{
+  display: flex;
+  width: 100px;
+  justify-content: space-around;
+}
+.social .logo{
+  margin: 4px;
+  outline: none;
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.logo:hover{
+  background-color: #E6E8E6;
 }
 .gallery{
   height: 100vh;
@@ -166,18 +185,14 @@ background-color: #f3eeea;
 .credits{
   display: flex;
   flex-direction: column;
+  font-size: medium;
 }
 .lists{
-  margin: 10px 0;
+  margin: 5px 0;
   display: flex;
 }
 .team{
-  font-size: 20px;
-  width: 150px;
   text-decoration: underline;
-}
-.member{
-  font-size: 20px;
 }
 @media (max-width: 320px) {
   .header{

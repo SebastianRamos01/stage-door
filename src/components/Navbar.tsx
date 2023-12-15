@@ -41,6 +41,11 @@ export default function Navbar() {
               <li>
                 <a href='/contact' className='ref'>Contact</a>
               </li>
+              <div className='social'>
+                <img src='images/instagram.png' alt="logo" className='logo'/>
+                <img src='images/email.png' alt="logo" className='logo'/>
+                <img src='images/facebook.png' alt="logo" className='logo'/>
+              </div>
             </ul>
         }
     </div>
