@@ -5,7 +5,7 @@ export default function About() {
     <div className='main'>
       <div className='texts'>
         <div className='main-text'>
-          Discover Our Team
+          Discover Our Team!
         </div>
         <ul className='credits'>
           <div className='lists'>
@@ -14,13 +14,13 @@ export default function About() {
             </div>
             <li className="members">
               <div className='member'>
-                Lorem Ipsum
+                Elena Sharma
               </div>
               <div className='member'>
-                Random Name
+                Elise Urban
               </div>
               <div className='member'>
-                Developer Missing
+                Missing Developer
               </div>
             </li>
           </div>
@@ -30,10 +30,10 @@ export default function About() {
             </div>
             <li className="members">
               <div className='member'>
-                Lorem Ipsum
+                Isak Arseny
               </div>
               <div className='member'>
-                Lorem Ipsum
+                Neon Marcos
               </div>
             </li>
           </div>
@@ -43,16 +43,16 @@ export default function About() {
             </div>
             <li className="members">
               <div className='member'>
-                Lorem Ipsum
+                Svetlana Severin
               </div>
               <div className='member'>
-                Lorem Ipsum
+                Aldric Danijela
               </div>
             </li>
           </div>
         </ul>  
       </div>
-      <div className='img'>
+      <div className='about-shape'>
       </div>
     </div>
   )
