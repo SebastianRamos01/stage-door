@@ -32,20 +32,15 @@ export default function Navbar() {
         {
           isOpen && 
               <ul className='nav'>
-              <li>
+              <li className='nav-item'>
                 <a href='/about' className='ref'>About</a>
               </li>
-              <li>
+              <li className='nav-item'>
                 <a href='/gallery' className='ref'>Gallery</a>
               </li>
-              <li>
+              <li className='nav-item'>
                 <a href='/contact' className='ref'>Contact</a>
               </li>
-              <div className='social'>
-                <img src='images/instagram.png' alt="logo" className='logo'/>
-                <img src='images/email.png' alt="logo" className='logo'/>
-                <img src='images/facebook.png' alt="logo" className='logo'/>
-              </div>
             </ul>
         }
     </div>

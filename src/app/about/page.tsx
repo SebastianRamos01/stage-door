@@ -5,54 +5,25 @@ export default function About() {
     <div className='main'>
       <div className='texts'>
         <div className='main-text'>
-          Discover Our Team!
+          Learn About us
         </div>
-        <ul className='credits'>
-          <div className='lists'>
-            <div className='team'>
-              Web Developers
-            </div>
-            <li className="members">
-              <div className='member'>
-                Elena Sharma
-              </div>
-              <div className='member'>
-                Elise Urban
-              </div>
-              <div className='member'>
-                Missing Developer
-              </div>
-            </li>
-          </div>
-          <div className='lists'>
-            <div className='team'>
-              Web Designers
-            </div>
-            <li className="members">
-              <div className='member'>
-                Isak Arseny
-              </div>
-              <div className='member'>
-                Neon Marcos
-              </div>
-            </li>
-          </div>
-          <div className='lists'>
-            <div className='team'>
-              Marketing
-            </div>
-            <li className="members">
-              <div className='member'>
-                Svetlana Severin
-              </div>
-              <div className='member'>
-                Aldric Danijela
-              </div>
-            </li>
-          </div>
-        </ul>  
+        <div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, consectetur.
+          Earum pariatur voluptatibus rerum voluptatem, fugiat dolor illo, ex quaerat,
+          ullam voluptates maiores perferendis recusandae officia consectetur quia mollitia facilis!
+        </div>
+        <br />
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Laudantium illo eveniet voluptas sit aperiam,
+          aut tempora quam esse tenetur mollitia fugit ullam? Dolorem quaerat dolor ducimus error quas minima beatae?
+        </div>
+        <br />
+        <div>
+          - Missing name
+        </div>
       </div>
-      <div className='about-shape'>
+      <div className='img'>
       </div>
     </div>
   )

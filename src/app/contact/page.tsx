@@ -1,33 +1,37 @@
-import React from 'react'
-
 export default function page() {
   return (
     <div className='main'>
-      <div className='contact-text'>
+      <div className='texts'>
         <div className='main-text'>
-          We are happy to talk!
+          Lets Talk
         </div>
-        <div className='text'>
-          email
+        <div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Voluptatem inventore dolorum dolores assumenda perspiciatis fuga ullam atque ipsum odio minima, unde,
+          nam obcaecati, aut blanditiis illo in incidunt maiores quas.
         </div>
-        <div className='text'>
+        <br />
+        <div className=''>
           random@algo.com
         </div>
-        <div className='text'>
-          number
-        </div>
-        <div className='text'>
+        <div className=''>
           +12 13245398
         </div>
-        <div className='text'>
-          adreess
-        </div>
-        <div className='text'>
+        <div className=''>
           lorem ipsum 6452
         </div>
+        <br />
+        <div className='text'>
+          Instagram
+        </div>
+        <div className='text'>
+          Facebook
+        </div>
+        <div className='text'>
+          Twitter
+        </div>
       </div>
-      <div className='shape'>
-        
+      <div className='img'>
       </div>
     </div>
   )
